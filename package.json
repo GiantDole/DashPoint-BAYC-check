@@ -1,0 +1,17 @@
+{
+  "name": "dashpoint_nft",
+  "version": "1.0.0",
+  "description": "Providing an NFT interface to the dashpoint application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/html\""
+  },
+  "author": "Adrian Koegl",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "web3": "^1.7.3"
+  }
+}
