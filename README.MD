@@ -1,4 +1,4 @@
-#NFT posession checker
+#NFT possession checker
 
 Requirement: NPM installed; Visual Code Studio (VCS)
 VCS Extensions: Live Server
